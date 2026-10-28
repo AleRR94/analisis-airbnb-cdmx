@@ -13,16 +13,20 @@ El dataset original (30,468 registros) presentaba los siguientes retos de calida
 **Dataset final:** 28,323 registros limpios y listos para análisis.
 
 ## 🎯 Metodología y KPIs
-Se calcularon métricas de negocio agrupadas por barrio, tipo de habitación y antigüedad del host, incluyendo:
+1. Reduje el número de columna de 90 a 19.
+2. El archivo original tenía caracteres con un sistema viejo (UTF-8) por lo tanto no los reconocía, se hizo el cambio a latin-1.
+3. La columna "host_since" viene vacía, por lo que usé "host_time_as_host_years" como aproximado de la antigüedad del anfitrión.
+4. Se eliminaron outliers de precios exagerados por habitación, debido a que una habitación privada jamás costaría eso.
+5. Se calcularon métricas de negocio agrupadas por barrio, tipo de habitación y antigüedad del host, incluyendo:
 - Precio mediano y promedio.
 - Ocupación estimada anual (`estimated_occupancy_l365d`).
 - Ingreso estimado anual (`price * estimated_occupancy_l365d`).
 
 ## ✨ Hallazgos Principales
-1. **Cuauhtémoc domina el mercado:** Concentra el 46.6% de la oferta y el mayor ingreso estimado promedio ($204,760 MXN).
-2. **El precio no lo es todo:** Los anfitriones con 2-3 años de experiencia logran la ocupación más alta (101.89 días/año), mientras que los nuevos (0-1 año) solo alcanzan 68.89 días.
-3. **El mercado de ultra-lujo:** Existe un nicho de villas y mansiones en Condesa/Roma (hasta 9 recámaras) que, a pesar de cobrar entre $12,000 y $37,000 MXN por noche, mantienen ocupaciones de 150 a 255 días al año.
-4. **Entire home/apt** genera 3.7 veces más ingresos que una habitación privada.
+1. La alcaldía Cuauhtémoc concentra el 46.6% de la oferta y el mayor ingreso estimado promedio ($204,760 MXN).
+2. Los anfitriones con 2-3 años de experiencia logran la ocupación más alta (101.89 días/año), mientras que los nuevos (0-1 año) solo alcanzan 68.89 días, así que el precio pasa a segundo plano.
+3. Existe un nicho de ultra lujo de villas y mansiones en las colonias Condesa/Roma (hasta 9 recámaras) que, a pesar de cobrar entre $12,000 y $37,000 MXN por noche, mantienen ocupaciones de 150 a 255 días al año.
+4. Rentar la casa o departamento completo genera 3.7 veces más ingresos que una habitación privada.
 
 ## ⚠️ Limitantes
 - No se incluyen costos operativos (limpieza, mantenimiento), por lo que el "ingreso estimado" no refleja el margen de ganancia real.
