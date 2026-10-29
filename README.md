@@ -1,4 +1,4 @@
-# Análisis de Mercado: Airbnb en la Ciudad de México (Otoño 2026)
+# Análisis de Mercado: Airb&b en la Ciudad de México (Otoño 2026)
 
 ## 📌 Descripción
 Análisis del mercado de alquiler a corto plazo en CDMX utilizando datos abiertos de Inside Airbnb. El objetivo es identificar patrones de precio, ocupación y rentabilidad para entender dónde conviene invertir en la ciudad.
