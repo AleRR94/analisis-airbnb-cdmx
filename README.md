@@ -36,4 +36,4 @@ El dataset original (30,468 registros) presentaba los siguientes retos de calida
 - Algunos barrios tienen muy pocos registros (ej. Milpa Alta con 25), por lo que sus promedios no son estadísticamente representativos.
 
 ## 📊 Dashboard
-👉 [Haz clic aquí para ver el Dashboard interactivo en Tableau Public]((https://public.tableau.com/views/AnlisisdeMercadoAirBBenlaCiudaddeMxicoOtoo2026/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+👉 [Haz clic aquí para ver el Dashboard interactivo en Tableau Public]([ENLACE AQUÍ](https://public.tableau.com/views/AnlisisdeMercadoAirBBenlaCiudaddeMxicoOtoo2026/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
