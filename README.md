@@ -27,6 +27,8 @@ El dataset original (30,468 registros) presentaba los siguientes retos de calida
 2. Los anfitriones con 2-3 años de experiencia logran la ocupación más alta (101.89 días/año), mientras que los nuevos (0-1 año) solo alcanzan 68.89 días, tienen 33% menos ocupación que los intermedios.
 3. Existe un nicho de ultra lujo de villas y mansiones en las colonias Condesa/Roma (hasta 9 recámaras) que, a pesar de cobrar entre $12,000 y $37,000 MXN por noche, mantienen ocupaciones de 150 a 255 días al año.
 4. Rentar la casa o departamento completo genera 3.7 veces más ingresos que una habitación privada.
+5. Las alcaldías Iztacalco, Cuajimalpa de Morelos y Venustiano Carranza son emergentes, ya que al no tener tanta presencia en esas zonas, en cuanto a ocupación le ganan o están a la par que las alcaldías con más turismo, es decir, Cuauhtémoc y Miguel Hidalgo. Y en cuanto a ingresos estimados, le ganan a alcaldías más populares como Coyoacán.
+6. Las alcaldías Cuauhtémoc y Miguel Hidalgo, donde se encuentran las colonias muy famosas (Roma, Condesa y Polanco), se posicionan muy bien en cuanto a la relación precio-ocupación. A diferencia de las alcaldías Milpa Alta o Xochimilco, su ocupación es mucho menor ya que se encuentran muy lejos de donde está el núcleo turístico.
 
 ## ⚠️ Limitantes
 - No se incluyen costos operativos (limpieza, mantenimiento), por lo que el "ingreso estimado" no refleja el margen de ganancia real.
@@ -34,4 +36,4 @@ El dataset original (30,468 registros) presentaba los siguientes retos de calida
 - Algunos barrios tienen muy pocos registros (ej. Milpa Alta con 25), por lo que sus promedios no son estadísticamente representativos.
 
 ## 📊 Dashboard
-👉 [Haz clic aquí para ver el Dashboard interactivo en Tableau Public](ENLACE_AQUI)
+👉 [Haz clic aquí para ver el Dashboard interactivo en Tableau Public]((https://public.tableau.com/views/AnlisisdeMercadoAirBBenlaCiudaddeMxicoOtoo2026/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
