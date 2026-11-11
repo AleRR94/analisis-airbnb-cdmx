@@ -35,6 +35,8 @@ Se calcularon métricas de negocio agrupadas por alcaldía, tipo de habitación 
 - Algunos barrios tienen muy pocos registros (ej. Milpa Alta con 25), por lo que sus promedios no son estadísticamente representativos.
 
 ## 📊 Dashboard
+<img width="1920" height="1043" alt="2026-11-11" src="https://github.com/user-attachments/assets/9c84cdbb-85ca-4a37-9fcf-c09788e5f81a" />
+
 👉 [Haz clic aquí para ver el Dashboard interactivo en Tableau Public](https://public.tableau.com/views/AnlisisdeMercadoAirBBenlaCiudaddeMxicoOtoo2026/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 💻 Código del Análisis
