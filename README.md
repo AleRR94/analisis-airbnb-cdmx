@@ -37,5 +37,10 @@ Se calcularon métricas de negocio agrupadas por alcaldía, tipo de habitación 
 ## 📊 Dashboard
 👉 [Haz clic aquí para ver el Dashboard interactivo en Tableau Public](https://public.tableau.com/views/AnlisisdeMercadoAirBBenlaCiudaddeMxicoOtoo2026/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-### Fuente de datos
+## 💻 Código del Análisis
+Puedes revisar el notebook completo con el proceso de limpieza, cálculo de KPIs y visualización de datos aquí:
+👉 **[Ver Notebook de Jupyter (Análisis completo)](https://github.com/AleRR94/analisis-airbnb-cdmx/blob/main/notebook/limpieza_airbnb_cdmx.ipynb)**
+
+
+### 🧾 Fuente de datos
 https://insideairbnb.com/get-the-data/ Consultado el 20 de octubre de 2026
